@@ -8,6 +8,14 @@ This project consist of multiple modules:
 * ktor-graphql-tools - Adds `graphql-java-tools` to BYOO (Bring your own object) for creating an executable `graphql-java` schema 
 * ktor-graphql-tools-koin - Use the Koin dependency injector to inject services into your query resolvers 
 
+## Install
+
+### Gradle
+TODO
+
+### Maven
+TODO
+
 ## Examples
 
 ### ktor-graphql-core
