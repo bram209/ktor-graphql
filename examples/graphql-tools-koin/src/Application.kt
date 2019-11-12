@@ -1,5 +1,6 @@
 package com.github.bram209.ktorgraphql.example
 
+import ktorgraphql.GraphQLFeature
 import com.coxautodev.graphql.tools.GraphQLQueryResolver
 
 import io.ktor.application.*
@@ -9,16 +10,17 @@ import io.ktor.routing.*
 import io.ktor.http.*
 import io.ktor.features.*
 import com.fasterxml.jackson.databind.*
-import graphql.*
 import io.ktor.jackson.*
-import koin.koinInstantiator
+import ktorgraphql.config
+import ktorgraphql.schemaBuilder
+import ktorgraphql.tools.autoDiscovery
+import ktorgraphql.tools.koin.koinInstantiator
+import ktorgraphql.tools.packagesToScan
+import ktorgraphql.tools.parser
+import ktorgraphql.tools.withGraphQLTools
 import org.koin.dsl.module
 import org.koin.ktor.ext.Koin
 import org.koin.ktor.ext.getKoin
-import tools.autoDiscovery
-import tools.packagesToScan
-import tools.parser
-import tools.withGraphQLTools
 
 fun main(args: Array<String>): Unit = io.ktor.server.netty.EngineMain.main(args)
 

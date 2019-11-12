@@ -1,6 +1,6 @@
-package koin
+package ktorgraphql.tools.koin
 
-import tools.Instantiator
+import ktorgraphql.tools.Instantiator
 import org.koin.core.Koin
 import org.koin.core.scope.Scope
 import org.koin.experimental.builder.getArguments

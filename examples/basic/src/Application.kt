@@ -1,10 +1,10 @@
 package com.github.bram209.ktorgraphql.example
 
-import graphql.GraphQLFeature
-import graphql.config
+import ktorgraphql.GraphQLFeature
+import ktorgraphql.config
 import graphql.schema.StaticDataFetcher
-import graphql.schemaBuilder
-import graphql.withRuntimeWiring
+import ktorgraphql.schemaBuilder
+import ktorgraphql.withRuntimeWiring
 
 import io.ktor.application.*
 import io.ktor.response.*

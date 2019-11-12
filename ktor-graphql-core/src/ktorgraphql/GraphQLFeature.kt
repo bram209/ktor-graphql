@@ -1,5 +1,6 @@
-package graphql
+package ktorgraphql
 
+import graphql.GraphQL
 import graphql.schema.GraphQLSchema
 import graphql.schema.idl.RuntimeWiring
 import graphql.schema.idl.RuntimeWiring.newRuntimeWiring
@@ -83,9 +84,10 @@ class GraphQLFeature(configuration: Configuration) {
                     call.executeGraphQLQuery()
                 }
 
-                get("/graphql") {
-                    call.executeGraphQLQuery()
-                }
+//                get("/graphql") {
+//                    call.executeGraphQLQuery()
+//                }
+
                 static("/playground") {
                     defaultResource("playground.html")
 //                    resources("META-INF/resources/webjars/graphql-playground-html/1.6.6/dist")

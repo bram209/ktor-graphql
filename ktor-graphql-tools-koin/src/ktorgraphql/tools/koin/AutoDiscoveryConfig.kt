@@ -1,9 +1,9 @@
-package koin
+package ktorgraphql.tools.koin
 
-import tools.AutoDiscoveryConfig
+import ktorgraphql.tools.AutoDiscoveryConfig
 import org.koin.core.Koin
 import org.koin.core.scope.Scope
-import tools.instantiator
+import ktorgraphql.tools.instantiator
 
 fun AutoDiscoveryConfig.koinInstantiator(koin: Koin) = koinInstantiator(koin.rootScope)
 

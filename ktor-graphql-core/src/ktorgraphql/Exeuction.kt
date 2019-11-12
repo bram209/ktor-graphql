@@ -1,5 +1,6 @@
-package graphql
+package ktorgraphql
 
+import graphql.ExecutionInput
 import io.ktor.application.ApplicationCall
 import io.ktor.application.feature
 import io.ktor.request.receive

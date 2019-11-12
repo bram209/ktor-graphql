@@ -1,6 +1,8 @@
-package graphql
+package ktorgraphql
 
 import com.fasterxml.jackson.annotation.JsonInclude
+import graphql.ExecutionResult
+import graphql.GraphQLError
 
 @JsonInclude(JsonInclude.Include.NON_NULL)
 data class GraphQLResponse(

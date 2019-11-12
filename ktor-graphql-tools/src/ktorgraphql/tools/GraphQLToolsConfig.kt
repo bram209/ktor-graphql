@@ -1,9 +1,9 @@
-package tools
+package ktorgraphql.tools
 
 import com.coxautodev.graphql.tools.GraphQLResolver
 import com.coxautodev.graphql.tools.SchemaParser
 import com.coxautodev.graphql.tools.SchemaParserBuilder
-import graphql.SchemaBuilderConfig
+import ktorgraphql.SchemaBuilderConfig
 import graphql.schema.GraphQLScalarType
 import graphql.schema.GraphQLSchema
 

@@ -1,4 +1,4 @@
-package tools
+package ktorgraphql.tools
 
 import kotlin.reflect.KClass
 

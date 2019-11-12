@@ -1,6 +1,7 @@
-package tools
+package ktorgraphql.tools
 
 import com.coxautodev.graphql.tools.GraphQLQueryResolver
+import com.coxautodev.graphql.tools.GraphQLResolver
 import com.coxautodev.graphql.tools.SchemaParserDictionary
 import graphql.schema.GraphQLScalarType
 import io.github.classgraph.ClassGraph
@@ -8,7 +9,7 @@ import io.github.classgraph.ScanResult
 import kotlin.reflect.KClass
 
 object GraphQLToolsScanner {
-    private val resolverInterfaceName = GraphQLQueryResolver::class.java.canonicalName
+    private val resolverInterfaceName = GraphQLResolver::class.java.canonicalName
     private val scalarTypeInterfaceName = GraphQLScalarType::class.java.canonicalName
     private val schemaParserDictionaryInterfaceName = SchemaParserDictionary::class.java.canonicalName
 
